@@ -2,7 +2,7 @@
 """
 Created on Thu Feb 11 16:21:51 2021
 
-@author: ba42pizo
+@author: JW
 """
 
 import pandas as pd
@@ -18,7 +18,7 @@ def import_csv(file_path):
     
 '''
 
-file_path = r'C:\Users\ba42pizo\Desktop\python\WiSe 21\test.csv'
+file_path = r'file'
 log = pm4py.format_dataframe(pd.read_csv(file_path, sep=';'), case_id='case_id',
 activity_key='activity',timestamp_key='timestamp')
 #log = log[log['@@index']< 40]
